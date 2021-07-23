@@ -1,0 +1,278 @@
+/* ===========General Styling==========*/
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    user-select: none;
+}
+
+/* ==== h1,h2,a ==== */
+h1,h2{
+    color: rgb(7, 7, 7);
+    text-align: center;
+    font-weight: lighter;
+    font-size: 5em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-seri;
+    text-shadow: 0.5px 0.2px 0.3px rgb(185, 184, 184);
+
+    
+}
+h3{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-shadow: 5px 5px 5px black;  
+}
+h4{
+    text-align: center !important;
+    color: rgb(70, 44, 44);
+    font-size: 2em;
+    text-shadow: 5px 5px 5px grey;
+}
+h6{
+    text-align: center !important;
+    color: rgb(70, 44, 44);
+    font-size: 2em;
+    text-shadow: 5px 5px 5px grey; 
+}
+a{
+    text-decoration: none;
+    color: rgb(29, 27, 27);
+}
+.e{
+    color: firebrick;
+    text-shadow:  -2px 0.5px black;
+    font-family: serif;
+
+    
+}
+
+/* Header */
+header{
+    background-color: rgb(248, 245, 245);
+}
+/* navbar */
+nav{
+    position: sticky;
+    z-index: 1500;
+    top: 0;
+}
+
+/* ul */
+
+ul{
+    background-color: black;
+    height: 20px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+    padding: 10px 0px;
+}
+ul li a{
+    color: white;
+    font-size: medium;
+    font-family: cursive;
+}
+/* dropdown menu */
+.dropdown-menu{
+    position: absolute;
+    top: 20;
+    z-index: 200;
+    background-color: rgba(0, 0, 0, 0.548);
+    width: 120px;
+    display: none;
+    border-radius: 0px 0px 6px 6px;
+}
+
+.dropdown-item{
+    display: block;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+.dropdown-menu a:hover {
+    border-bottom:2px solid firebrick;
+    color: rgb(15, 15, 15);
+   text-shadow: 1px 1px 1px rgb(211, 193, 193);
+}
+
+.drop-down:hover .dropdown-menu{
+    position: absolute;
+    display: block;
+
+}
+/* dropdown menu 2 */
+.dropdown-menu2{
+    position: absolute;
+    top: 20;
+    z-index: 200;
+    background-color: rgba(0, 0, 0, 0.548);
+    width: 470px;
+    height: 200px;
+    display: none;
+    margin-left: 110px;
+    margin-top: -25px;
+    color: white;
+    display: none;
+    padding: 10px auto;
+    border-radius: 0px 0px 6px 6px;
+}
+.dropdown-item:hover .dropdown-menu2{
+    display: flex;  
+}
+.facemask{
+    position: absolute;
+    top: 20;
+    z-index: 200;
+    background-color: rgba(0, 0, 0, 0.548);
+    width: 210px;
+    height: 200px;
+    display: none;
+    margin-left: 110px;
+    margin-top: -25px;
+    color: white;
+    padding: 10px auto;
+    border-radius: 0px 0px 6px 6px;
+}
+
+
+.skirts{
+    position: absolute;
+    top: 20;
+    z-index: 200;
+    background-color: rgba(0, 0, 0, 0.548);
+    width: 250px;
+    height: 200px;
+    display: none;
+    margin-left: 110px;
+    margin-top: -25px;
+    color: rgb(255, 255, 255);
+    padding: 10px auto;
+    border-radius: 0px 0px 6px 6px;
+}
+
+ .suits{
+    position: absolute;
+    top: 20;
+    z-index: 200;
+    background-color: rgba(0, 0, 0, 0.548);
+    width: 210px;
+    height: 200px;
+    display: none;
+    margin-left: 110px;
+    margin-top: -25px;
+    color: white;
+    padding: 10px auto;
+    border-radius: 0px 0px 6px 6px;
+}
+
+ .shorts{
+    position: absolute;
+    top: 20;
+    z-index: 200;
+    background-color: rgba(0, 0, 0, 0.548);
+    width: 200px;
+    height: 200px;
+    margin-left: 115px;
+    margin-top: -25px;
+    padding: 10px auto;
+    border-radius: 0px 0px 6px 6px;
+}
+
+/* Main styling */
+main{
+    display: flex;
+    width: auto;
+}
+.main{
+   width: 100%;
+   background-color: rgb(5, 5, 5);
+   
+}
+.topright{
+   align-items: center;
+    display: flex;
+
+}
+.displayBox{
+    width: 35%;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-shadow: 5px 5px 5px black;        
+}
+
+.db1{
+    background-image: url(pics/ANNET_PLAYSUIT_-_BLUE_DENIM_-_COVER_3.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: invert(10%);
+
+}
+.db2{
+    background-image: url(pics/dress1.jpeg);
+    background-position: center;
+    background-size: cover;
+    filter: invert(10%);
+    
+}
+.db3{
+    background-image: url(pics/hoodies.jpeg);
+    background-position: center;
+    background-size: cover;
+    filter: invert(10%);
+    
+}
+
+.video-box{
+    width: 70%;
+    background-color: none;
+    height: 300px;
+    margin: 20px auto;
+}
+.video{
+    height: auto;
+    width: fit-content;
+    margin: auto;
+}
+/* Section */
+.section-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.latest-links{
+   align-content: center;
+}
+.latest-box{
+    width: 30%;
+    height: 350px;
+    padding: 10px;
+    margin: 10px;    
+}
+.latest-pic img{
+    display: block;
+    margin: 0px auto;
+    
+}
+.latest-box h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    text-shadow: 3px 3px 3px grey;
+}
+
+p{
+    color: black;
+    font-size: large;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 10px auto;
+    text-shadow: 3px 2px 3px grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
